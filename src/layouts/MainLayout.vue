@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Menu
         </q-item-label>
 
         <EssentialLink
@@ -51,47 +51,47 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Proyectos',
-    caption: 'Proyect',
-    icon: 'school',
+    title: 'Tipo Estados',
+    caption: 'Type Status',
+    icon: 'widgets', // Icono para Tipo Estados
     link: '/proyect'
   },
-  // {
-  //   title: 'Github',
-  //   caption: 'github.com/quasarframework',
-  //   icon: 'code',
-  //   link: 'https://github.com/quasarframework'
-  // },
-  // {
-  //   title: 'Discord Chat Channel',
-  //   caption: 'chat.quasar.dev',
-  //   icon: 'chat',
-  //   link: 'https://chat.quasar.dev'
-  // },
-  // {
-  //   title: 'Forum',
-  //   caption: 'forum.quasar.dev',
-  //   icon: 'record_voice_over',
-  //   link: 'https://forum.quasar.dev'
-  // },
-  // {
-  //   title: 'Twitter',
-  //   caption: '@quasarframework',
-  //   icon: 'rss_feed',
-  //   link: 'https://twitter.quasar.dev'
-  // },
-  // {
-  //   title: 'Facebook',
-  //   caption: '@QuasarFramework',
-  //   icon: 'public',
-  //   link: 'https://facebook.quasar.dev'
-  // },
-  // {
-  //   title: 'Quasar Awesome',
-  //   caption: 'Community Quasar projects',
-  //   icon: 'favorite',
-  //   link: 'https://awesome.quasar.dev'
-  // }
+  {
+    title: 'Categorias',
+    caption: 'Category',
+    icon: 'category', // Icono para Categorías
+    link: '/proyect'
+  },
+  {
+    title: 'Prioridad',
+    caption: 'Priority',
+    icon: 'priority_high', // Icono para Prioridad
+    link: '/proyect'
+  },
+  {
+    title: 'Roles',
+    caption: 'Role',
+    icon: 'assignment_ind', // Icono para Roles
+    link: '/proyect'
+  },
+  {
+    title: 'Tareas',
+    caption: 'Tasks',
+    icon: 'task', // Icono para Tareas
+    link: '/proyect'
+  },
+  {
+    title: 'Proyectos',
+    caption: 'Project',
+    icon: 'work', // Icono para Proyectos
+    link: '/proyect'
+  },
+  {
+    title: 'Miembros',
+    caption: 'Member',
+    icon: 'group', // Icono para Miembros
+    link: '/proyect'
+  },
 ]
 
 export default defineComponent({

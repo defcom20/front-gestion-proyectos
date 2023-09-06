@@ -13,7 +13,7 @@ export default route(function (/* { store, ssrContext } */) {
       {
         path: '/',
         component: Layout,
-        children: [proyectRoutes],
+        children: [...proyectRoutes],
       },
       {
         path: '/:catchAll(.*)',
